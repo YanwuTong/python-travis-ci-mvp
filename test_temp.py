@@ -12,7 +12,7 @@ def test_fToC_32():
    assert cToF(32.0) == pytest.approx(0.0)
    
 def test_fToC_212():
-   assert cToF(212.0) == pytest.approx(100.0)
+   assert fToC(212.0) == pytest.approx(100.0)
    
 def test_fToC_n40():
-   assert cToF(-40.0) == pytest.approx(-40.0)
+   assert fToC(-40.0) == pytest.approx(-40.0)
